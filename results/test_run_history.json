@@ -1,0 +1,79 @@
+{
+  "training": [
+    {
+      "episodes_completed": 262,
+      "mean_reward": -1118.96679389313,
+      "std_reward": 389.28418651008695,
+      "steps_collected": 2048,
+      "policy_loss": -0.036217542528174815,
+      "value_loss": 420966.845703125,
+      "entropy": 2.1377299722284078,
+      "total_loss": 210483.36962890625,
+      "training_step": 1,
+      "epoch": 0,
+      "elapsed_time": 11.404784679412842
+    },
+    {
+      "episodes_completed": 260,
+      "mean_reward": -828.6857692307693,
+      "std_reward": 330.2045615241125,
+      "steps_collected": 2048,
+      "policy_loss": 0.005945101348333992,
+      "value_loss": 171782.45080566406,
+      "entropy": 1.9888558335602284,
+      "total_loss": 85891.21020507812,
+      "training_step": 2,
+      "epoch": 1,
+      "elapsed_time": 21.816664218902588
+    },
+    {
+      "episodes_completed": 264,
+      "mean_reward": -678.8897727272728,
+      "std_reward": 251.51989666451874,
+      "steps_collected": 2048,
+      "policy_loss": -0.009075383958406746,
+      "value_loss": 86359.70020751953,
+      "entropy": 1.9263429746031762,
+      "total_loss": 43179.821606445315,
+      "training_step": 3,
+      "epoch": 2,
+      "elapsed_time": 31.486735582351685
+    },
+    {
+      "episodes_completed": 275,
+      "mean_reward": -663.9316363636364,
+      "std_reward": 253.6603690317475,
+      "steps_collected": 2048,
+      "policy_loss": -0.0036292491015046833,
+      "value_loss": 38008.100765991214,
+      "entropy": 1.8035437121987343,
+      "total_loss": 19004.028666687012,
+      "training_step": 4,
+      "epoch": 3,
+      "elapsed_time": 41.578404664993286
+    },
+    {
+      "episodes_completed": 290,
+      "mean_reward": -457.0613793103449,
+      "std_reward": 184.13304810650928,
+      "steps_collected": 2048,
+      "policy_loss": -0.009545174788217991,
+      "value_loss": 14493.85044708252,
+      "entropy": 1.3490979872643947,
+      "total_loss": 7246.902198028564,
+      "training_step": 5,
+      "epoch": 4,
+      "elapsed_time": 51.49762845039368
+    }
+  ],
+  "evaluation": [
+    {
+      "mean_reward": -200.35,
+      "std_reward": 147.77026933723846,
+      "mean_length": 5.6,
+      "min_reward": -554.5,
+      "max_reward": -1.0,
+      "epoch": 4
+    }
+  ]
+}

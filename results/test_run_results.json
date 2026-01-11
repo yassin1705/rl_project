@@ -1,0 +1,33 @@
+{
+  "run_name": "test_run",
+  "seed": 42,
+  "num_epochs": 5,
+  "total_time_minutes": 0.863672920068105,
+  "best_eval_reward": -200.35,
+  "best_epoch": 4,
+  "final_eval": {
+    "mean_reward": -207.425,
+    "std_reward": 75.38439410779927,
+    "mean_length": 6.05,
+    "min_reward": -329.5,
+    "max_reward": -125.0
+  },
+  "config": {
+    "num_cores": 6,
+    "frequency_levels": [
+      1.5,
+      2.0,
+      2.5,
+      3.1
+    ],
+    "state_dim": 9,
+    "action_dim": 12,
+    "buffer_size": 2048,
+    "batch_size": 64,
+    "ppo_epochs": 10,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_epsilon": 0.2
+  }
+}

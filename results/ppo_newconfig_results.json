@@ -1,0 +1,33 @@
+{
+  "run_name": "ppo_newconfig",
+  "seed": 42,
+  "num_epochs": 100,
+  "total_time_minutes": 14.162150959173838,
+  "best_eval_reward": 944.6088000000005,
+  "best_epoch": 79,
+  "final_eval": {
+    "mean_reward": 707.7474999999997,
+    "std_reward": 600.0053004922122,
+    "mean_length": 99.3,
+    "min_reward": -7.0,
+    "max_reward": 1923.4500000000003
+  },
+  "config": {
+    "num_cores": 6,
+    "frequency_levels": [
+      1.5,
+      2.0,
+      2.5,
+      3.1
+    ],
+    "state_dim": 9,
+    "action_dim": 12,
+    "buffer_size": 2048,
+    "batch_size": 64,
+    "ppo_epochs": 10,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_epsilon": 0.2
+  }
+}
